@@ -1,0 +1,24 @@
+#server配置
+server:
+  port: 8808
+  max-http-header-size: 8192
+  tomcat.uri-encoding: utf-8
+#keyStore
+key-store:
+  url: https://i.qz.fkw.com/wxAppConnectionV3.jsp?cmd=addWXAppFormSubmit
+  file-path: /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/security/cacerts
+  password: changeit
+ip:
+  url: http://ip.ipjldl.com/api/entry
+  user: beck0101
+  pass: f25331400
+file:
+  user-file: /Users/yangweihua/Documents/code/number2/src/main/resources/user.txt
+  out-path: /Users/yangweihua/Documents/code/number2/src/main/resources/
+send:
+  retry: 20
+  form-id: 81
+  core-thread: 20
+  max-thread: 40
+  keep-alive: 30000
+  max-send-batch: 1

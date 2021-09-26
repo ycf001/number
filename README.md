@@ -1,0 +1,1 @@
+sudo keytool -importcert -file /Users/yangweihua/Downloads/上号/*.fkw.com.cer -keystore /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/security/cacerts
